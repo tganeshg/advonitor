@@ -41,7 +41,7 @@ function login() {
 		}
 	};
 	
-	xmlHttp.open("POST", "/api/login.php", true);
+	xmlHttp.open("POST", "/advonitor/api/login.php", true);
 	xmlHttp.setRequestHeader('Content-Type', 'application/json');
 	xmlHttp.setRequestHeader('Cache-Control', 'no-cache');
 	xmlHttp.send(loginStr);

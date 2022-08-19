@@ -8,7 +8,7 @@ function isValidJSON($str) {
 
 $servername = "localhost";
 $username   = "root";
-$password   = "stg09234";
+$password   = "ganesh@345";
 $dbname     = "advonitor";
 
 // Create connection
